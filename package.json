@@ -23,7 +23,5 @@
     "ionic-plugin-keyboard",
     "cordova-plugin-googleplayservices"
   ],
-  "cordovaPlatforms": [
-    "android"
-  ]
+  "cordovaPlatforms": []
 }
