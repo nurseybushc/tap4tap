@@ -1,0 +1,23 @@
+<ion-view view-title="" style="background-color:#EEEEEE">
+  <ion-content class="center" style="background-color:#EEEEEE">
+  	<div class="row center" style="font-size:8vw;height:10vw;margin-bottom:4vw;">{{ score }}</div>
+    <div class="row" style="width:{{ bar }}%;-webkit-transition:width 0.1s;background-color:{{ barColor }};margin-bottom:20px;padding-bottom:20px;">
+    </div>
+    <div class="row">
+	  <div class="col col-50">
+	  	<div ng-click="oneTouch($event)" style="-webkit-transition:background,border 0.5s;width:35vw;height:35vw;background-color:{{ oneColor }};float:right;border:{{ oneNum*3 }}px solid #BFBFBF;font-size:5vw;{{ selectBox == 'one' ? 'border-radius:5px;box-shadow:0 0 5vw #000' : '' }}" class="center">{{ oneNum }}</div>
+	  </div>
+	  <div class="col col-50">
+	  	<div ng-click="twoTouch($event)" style="-webkit-transition:background,border 0.5s;width:35vw;height:35vw;background-color:{{ twoColor }};float:right;border:{{ twoNum*3 }}px solid #BFBFBF;font-size:5vw;{{ selectBox == 'two' ? 'border-radius:5px;box-shadow:0 0 5vw #000' : '' }}" class="center">{{ twoNum }}</div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col col-50">
+	  	<div ng-click="threeTouch($event)" style="-webkit-transition:background,border 0.5s;width:35vw;height:35vw;border:{{ threeNum*3 }}px solid #BFBFBF;background-color:{{ threeColor }};float:right;font-size:5vw;{{ selectBox == 'three' ? 'border-radius:5px;box-shadow:0 0 5vw #000' : '' }}" class="center">{{ threeNum }}</div>
+	  </div>
+	  <div class="col col-50">
+	  	<div ng-click="fourTouch($event)" style="-webkit-transition:background,border 0.5s;width:35vw;height:35vw;background-color:{{ fourColor }};float:right;border:{{ fourNum*3 }}px solid #BFBFBF;font-size:5vw;{{ selectBox == 'four' ? 'border-radius:5px;box-shadow:0 0 5vw #000' : '' }}" class="center">{{ fourNum }}</div>
+	  </div>
+	</div>
+  </ion-content>
+</ion-view>
