@@ -2,6 +2,7 @@
 A simple game made using ionic framework
 
 google play : https://play.google.com/store/apps/details?id=com.ionicframework.fotafo547162
+
 video : https://www.youtube.com/watch?v=Ijx7SVG3fMY
 
 ## browser
