@@ -11,7 +11,9 @@ video : https://www.youtube.com/watch?v=Ijx7SVG3fMY
 ## android
 
 `ionic platform add android`
+
 `cordova plugin add https://github.com/litehelpers/Cordova-sqlite-storage.git`
+
 `cordova plugin add cordova-plugin-admobpro`
 
 ### build
